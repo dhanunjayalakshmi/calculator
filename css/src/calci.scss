@@ -1,0 +1,67 @@
+$dark-bg-color: #026FB0;
+$light-bg-color: lighten(#C8C8C8,10%);
+
+#calculator {
+  width: 70vh;
+  margin: 0 auto;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+
+  #result{
+    height: 20vh;
+    font-weight: 400;
+    text-align: right;
+    font-size: 10vh;
+    line-height: 20vh;
+    background-color: lighten($dark-bg-color,55%);
+    overflow: hidden;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+  }
+
+  #preview{
+    height: 10vh;
+    font-weight: 400;
+    text-align: right;
+    font-size: 5vh;
+    line-height: 10vh;
+    background-color: darken($light-bg-color,10%);
+    overflow: hidden;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+  }
+
+  #keys{
+    text-align: center;
+    cursor: pointer;
+
+    .key{
+      height: 14vh;
+      font-size: 5vh;
+      line-height: 14vh;
+      border: 2px solid #FFF;
+      padding: 0;
+
+      &::selection {
+        background: transparent;
+      }
+    }
+
+    .number{
+      background-color: $light-bg-color;
+
+      &:hover{
+        background-color: darken($light-bg-color, 20%);
+      }
+    }
+
+    .operator{
+      color: #FFF;
+      background-color: $dark-bg-color;
+
+      &:hover{
+        background-color: lighten($dark-bg-color, 20%);
+      }
+    }
+  }
+}

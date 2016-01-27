@@ -1,0 +1,31 @@
+<div class="col-xs-9">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-4 key">7</div>
+      <div class="col-xs-4 key">8</div>
+      <div class="col-xs-4 key">9</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 key">4</div>
+      <div class="col-xs-4 key">5</div>
+      <div class="col-xs-4 key">6</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 key">1</div>
+      <div class="col-xs-4 key">2</div>
+      <div class="col-xs-4 key">3</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 key">.</div>
+      <div class="col-xs-4 key">0</div>
+      <div class="col-xs-4 key">=</div>
+    </div>
+  </div>
+</div>
+<div class="col-xs-3">
+  <div class="key">DEL</div>
+  <div class="key">/</div>
+  <div class="key">*</div>
+  <div class="key">-</div>
+  <div class="key">+</div>
+</div>
