@@ -49,7 +49,7 @@ handleOperator: function(key){
   if((Calculator.previewContent() == "") && ($('#result').html() != "")){
     var prev = $('#result').html();
     $("#preview").append(prev);
-    $("#preview").append(prev);
+    $("#preview").append(key);
   }
 },
 
