@@ -46,6 +46,11 @@ handleOperator: function(key){
   if((Calculator.previewContent() != "") || (key == "-")){
     Calculator.handleInput(key);
   }
+  if((Calculator.previewContent() == "") && ($('#result').html() != "")){
+    var prev = $('#result').html();
+    $("#preview").append(prev);
+    $("#preview").append(prev);
+  }
 },
 
 handleGenericInput: function(key){
